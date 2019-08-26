@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+import numpy as np
+y1=(0.2501,0.2216,0.1646)
+x=(2011,2012,2013)
+y2=(0.1440,0.1290,0.1654)
+y3=(0.4789,0.4734,0.4981)
+y4=(0.2366,0.2600,0.4252)
+plt.title('Graph showing the average consumption of energy for given data of top 3 house holds')
+plt.plot(x,y1)
+plt.plot(x,y2)
+plt.plot(x,y3)
+plt.plot(x,y4)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.show()
